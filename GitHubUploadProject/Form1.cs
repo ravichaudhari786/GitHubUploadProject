@@ -13,6 +13,7 @@ namespace GitHubUploadProject
         {
             CountClass.Counts = CountClass.Counts+1;
             MessageBox.Show("You click button "+ CountClass.Counts +" times");
+
         }
     }
 }
