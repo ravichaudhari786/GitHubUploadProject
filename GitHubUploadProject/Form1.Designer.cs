@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.txtlable = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSubmit
@@ -41,20 +42,31 @@
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
+            // txtlable
+            // 
+            this.txtlable.AutoSize = true;
+            this.txtlable.Location = new System.Drawing.Point(60, 179);
+            this.txtlable.Name = "txtlable";
+            this.txtlable.Size = new System.Drawing.Size(0, 15);
+            this.txtlable.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtlable);
             this.Controls.Add(this.btnSubmit);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private Button btnSubmit;
+        private Label txtlable;
     }
 }
