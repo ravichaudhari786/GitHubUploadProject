@@ -13,7 +13,7 @@ namespace GitHubUploadProject
         {
             txtlable.Text = "";
             CountClass.Counts = CountClass.Counts+1;
-            //MessageBox.Show();
+            
             txtlable.Text = "Ravi click button " + CountClass.Counts +" times";
 
         }
