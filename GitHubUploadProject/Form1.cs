@@ -11,6 +11,7 @@ namespace GitHubUploadProject
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
+
             CountClass.Counts = CountClass.Counts+1;
             MessageBox.Show("You click button "+ CountClass.Counts +" times");
 
