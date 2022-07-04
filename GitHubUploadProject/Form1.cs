@@ -6,5 +6,10 @@ namespace GitHubUploadProject
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You click button");
+        }
     }
 }
