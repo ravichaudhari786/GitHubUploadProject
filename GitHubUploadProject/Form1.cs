@@ -17,5 +17,11 @@ namespace GitHubUploadProject
             txtlable.Text = "Ravi click button " + CountClass.Counts +" times";
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtlable.Text = "";
+            CountClass.Counts = 0;
+        }
     }
 }
